@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    style="?android:listSeparatorTextViewStyle">
+
+    <ImageView
+        android:id="@+id/thumbnail_fv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dip"
+        android:layout_weight="1"
+
+        />
+
+
+    <TextView
+        android:id="@+id/title_fv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:padding="5dp"
+        android:layout_margin="6dip"
+
+
+        />
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_margin="6dip"
+        >
+
+
+        <TextView
+            android:id="@+id/num_of_views"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="10sp"
+            android:layout_marginBottom="3dip"
+            android:gravity="bottom"
+
+            />
+
+
+        <TextView
+            android:id="@+id/publish_date_fv"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="10sp"
+            android:layout_marginTop="3dip"
+            android:gravity="bottom"
+
+            />
+    </LinearLayout>
+
+    <CheckBox
+        android:padding="5dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/star_button"
+        android:layout_weight="1"
+        android:checked="false"
+        android:button="@drawable/star_button"
+        android:layout_margin="6dip"
+        android:gravity="center"
+        style="?android:attr/starStyle"
+       />
+
+        <!--  style="?android:attr/starStyle" android:button="@drawable/star_button"-->
+
+
+
+</LinearLayout>
+
